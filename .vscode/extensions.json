@@ -1,0 +1,15 @@
+{
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "coenraads.bracket-pair-colorizer",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "davidanson.vscode-markdownlint",
+    "dsznajder.es7-react-js-snippets",
+    "sirtori.indenticator",
+    "wix.vscode-import-cost",
+    "xabikos.javascriptsnippets"
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
+}
