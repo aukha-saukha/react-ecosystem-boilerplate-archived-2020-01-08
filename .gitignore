@@ -1,0 +1,6 @@
+# Files to ignore
+.DS_Store
+
+# Directories to ignore
+dist
+node_modules
