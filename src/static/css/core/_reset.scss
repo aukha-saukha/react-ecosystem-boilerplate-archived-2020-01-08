@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -11,11 +13,9 @@ html {
 body {
   border: 0;
   color: map-get($text-color, base);
-  font-family: map-get($font-family, base);
+  font-family: unquote(map-get($font-family, base));
   font-weight: 300;
-  margin: 0;
   min-width: 300px;
-  padding: 0;
   vertical-align: baseline;
 }
 

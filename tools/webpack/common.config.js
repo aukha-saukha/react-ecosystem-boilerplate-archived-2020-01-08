@@ -43,6 +43,7 @@ const PATHS = {
   distDevPrivateJS: `${distDevPrivate}/js`,
   distDevPublicCSS: `${distDevPublic}/css`,
   distDevPublicJS: `${distDevPublic}/js`,
+  distDevPublicStats: `${distDevPublic}/stats`,
   distProdPrivateJS: `${distProdPrivate}/js`,
   distProdPublicCSS: `${distProdPublic}/css`,
   distProdPublicJS: `${distProdPublic}/js`,

@@ -91,8 +91,10 @@ module.exports = {
 
     // Vendor
     vendor: [
+      '@loadable/component',
       'react',
       'react-dom',
+      'react-router-dom',
       `webpack-dev-server/client?http://localhost:${PORTS.webpackDevServer}`,
     ],
   },

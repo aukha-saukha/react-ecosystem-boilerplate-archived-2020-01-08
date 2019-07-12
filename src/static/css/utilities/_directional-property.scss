@@ -63,26 +63,26 @@
   }
 
   @if ($direction-name == null or $direction-name == 'all') {
-    margin: $values;
+    #{$property-name}: $values;
   } @else if ($direction-name == 'bottom') {
-    margin-bottom: $values;
+    #{$property-name}-bottom: $values;
   } @else if ($direction-name == 'horizontal') {
     @if length($values) == 2 {
-      margin: 0 nth($values, 1) 0 nth($values, 2);
+      #{$property-name}: 0 nth($values, 1) 0 nth($values, 2);
     } @else {
-      margin: 0 $values;
+      #{$property-name}: 0 $values;
     }
   } @else if ($direction-name == 'left') {
-    margin-left: $values;
+    #{$property-name}-left: $values;
   } @else if ($direction-name == 'right') {
-    margin-right: $values;
+    #{$property-name}-right: $values;
   } @else if ($direction-name == 'top') {
-    margin-top: $values;
+    #{$property-name}-top: $values;
   } @else if ($direction-name == 'vertical') {
     @if length($values) == 2 {
-      margin: nth($values, 1) 0 nth($values, 2) 0;
+      #{$property-name}: nth($values, 1) 0 nth($values, 2) 0;
     } @else {
-      margin: $values 0;
+      #{$property-name}: $values 0;
     }
   }
 }
